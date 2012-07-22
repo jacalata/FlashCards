@@ -1,0 +1,16 @@
+﻿<local:MainViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:FlashCards" 
+    SampleProperty="Sample Text Property Value">
+    
+    <local:MainViewModel.Items>
+        <local:ItemViewModel Title="title one" Prompt="prompt" Answer="answer dum dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur" Flag="False"/>
+        <local:ItemViewModel Title="design two" Prompt="Dictumst eleifend facilisi faucibus" Answer="Pharetra placerat pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent" Flag="False"/>
+        <local:ItemViewModel Title="design three" Prompt="Habitant inceptos interdum lobortis" Answer="Accumsan bibendum dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat" Flag="False"/>
+        <local:ItemViewModel Title="design four" Prompt="Nascetur pharetra placerat pulvinar" Answer="Pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum" Flag="False"/>
+        <local:ItemViewModel Title="design five" Prompt="Sagittis senectus sociosqu suscipit" Answer="Dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat pulvinar sagittis" Flag="True"/>
+        <local:ItemViewModel Title="design six" Prompt="Torquent ultrices vehicula volutpat" Answer="Senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum dictumst eleifend" Flag="False"/>
+    </local:MainViewModel.Items>
+    
+</local:MainViewModel>
